@@ -1,0 +1,18 @@
+{
+  "company": "Northwind Labs LLC",
+  "authorized_units": 1000000,
+  "effective_date": "2026-11-01",
+  "holders": [
+    {"name": "Avery Chen", "role": "CEO", "founder_units": 400000, "vesting_start": "2026-11-01"},
+    {"name": "Jordan Patel", "role": "CTO", "founder_units": 200000, "vesting_start": "2026-11-01"},
+    {"name": "Sam Rivera", "role": "COO", "founder_units": 80000, "vesting_start": "2026-11-01"},
+    {"name": "Taylor Brooks", "role": "Growth", "founder_units": 20000, "vesting_start": "2026-11-01"},
+    {"name": "Morgan Lee", "role": "Design"}
+  ],
+  "committed": {"Sam Rivera": 20000},
+  "buyout": {
+    "seller": "Casey Nguyen (departing co-founder)",
+    "stake_units": 100000,
+    "payments": {"Avery Chen": 400, "Jordan Patel": 250, "Morgan Lee": 100}
+  }
+}
